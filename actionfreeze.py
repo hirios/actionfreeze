@@ -4,8 +4,8 @@ import math
 
 class Actionfreeze():
     def __init__(self):
-        self.hora = str(datetime.datetime.now())
-        self.seconds = math.trunc(float(self.hora.split(":")[2]))
+        self.hour = str(datetime.datetime.now())
+        self.seconds = math.trunc(float(self.hour.split(":")[2]))
 
 
     def timefreeze(time):
