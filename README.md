@@ -1,2 +1,2 @@
 # actionfreeze
-Lib para executar uma função repetidamente por um tempo
+Lib para executar uma funcões repetidamente por um tempo
