@@ -1,5 +1,5 @@
 # Actionfreeze
-Lib para executar uma funcões repetidamente por um tempo específico
+Lib para executar funcões repetidamente por um tempo específico
 
 # Usage:
 
