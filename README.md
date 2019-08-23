@@ -21,7 +21,7 @@ while actualseconds() != ice:
 
 A variável ```ice``` está recebendo a função ```timefreeze(seconds)```, que retorna os segundos do horário atual somados aos segundos que você especificar.  
 
-Depois é criado um while que compara ``actualseconds()``` com a variável ```ice```, enquanto eles forem diferentes, excute uma determinada tarefa.
+Depois é criado um while que compara ```actualseconds()``` com a variável ```ice```, enquanto eles forem diferentes, excute uma determinada tarefa.
 
 # Funções:
 
