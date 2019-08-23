@@ -1,5 +1,5 @@
 # Actionfreeze
-Lib para executar uma funcões repetidamente por um tempo
+Lib para executar uma funcões repetidamente por um tempo específico
 
 # Usage:
 
@@ -28,4 +28,6 @@ Depois é criado um while que compara os segundos atuais retornados pela funçã
 ```timefreeze(10)``` retorna os segundos do horário atual somados aos segundos que você especificar
 
 ```actualseconds()``` Retorna os segundos do horário atual
+
+Obs: O tempo de congelamento nao pode ultrapassar 60 segundos, ao menos, nao ainda. 
 
