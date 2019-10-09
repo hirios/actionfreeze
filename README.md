@@ -1,4 +1,8 @@
 # Actionfreeze
+
+Preciso ainda fazer alguns ajustes... Como usei poucas vezes só fui notar um erro gravíssimo agora.
+
+
 Lib para executar funcões repetidamente por um tempo específico.
 
 # Usage:
