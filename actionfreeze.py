@@ -1,23 +1,8 @@
-import datetime
-import math
+from datetime import datetime, timedelta
 
 
-class Actionfreeze():
-    def __init__(self):
-        self.hour = str(datetime.datetime.now())
-        self.seconds = math.trunc(float(self.hour.split(":")[2]))
-
-
-    def timefreeze(time):
-        futuresec = Actionfreeze().seconds + time
-        if futuresec > 60:
-            futuresec = futuresec - 60
-        return futuresec
-
-
-def actualseconds():
-    return Actionfreeze().seconds
-
-
-def timefreeze(time):
-    return Actionfreeze.timefreeze(time)
+def whilefreezed(h=0, m=0, s=0, f=None):
+    now = str(datetime.now() + timedelta(hours=h, minutes=m, seconds=s))[10:-4]
+    while str(datetime.now())[10:-4] != now:
+        f()
+    
