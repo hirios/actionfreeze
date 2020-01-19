@@ -10,6 +10,7 @@ Primeiramente baixe o whilefreezed.py e importe-o no seu programa da seguinte ma
 ```
 from whilefreezed import *
 ```
+<br />
 
 Os parâmetros do whilefreezed são (h=0, m=0, s=0, f=None).
 
