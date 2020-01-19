@@ -20,16 +20,16 @@ f -> função (onde deverá ser posta a função sem fazer a chamada da mesma, o
 
 
 ``````
-from whilefreezed import *
+>>> from whilefreezed import *
 
-def exemplo():
-    print('Exemplo de uso')
+
+>>> def exemplo():
+        print('Exemplo de uso')
     
-whilefreezed(s=10, f=exemplo)
-
-
->>> Exemplo de uso
->>> Exemplo de uso
+>>>> whilefreezed(s=10, f=exemplo)
+ 
+Exemplo de uso
+Exemplo de uso
 Exemplo de uso
 Exemplo de uso
 Exemplo de uso
