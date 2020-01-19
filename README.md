@@ -13,10 +13,10 @@ from whilefreezed import *
 
 Os parâmetros do whilefreezed são (h=0, m=0, s=0, f=None).
 
-h -> hora
-m -> minutos
-s -> segundos
-f -> função (onde deverá ser posta a função sem fazer a chamada da mesma, ou seja, sem o "()" no final. 
+h -> hora <br />
+m -> minutos <br />
+s -> segundos <br />
+f -> função (onde deverá ser posta a função sem fazer a chamada da mesma, ou seja, sem o "()" no final. <br />
 
 
 ``````
