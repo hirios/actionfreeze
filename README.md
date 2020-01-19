@@ -1,37 +1,37 @@
-# Actionfreeze
+# Para que serve?
 
-Preciso ainda fazer alguns ajustes... Como usei poucas vezes só fui notar um erro gravíssimo agora.
+Você pode definir por quanto tempo uma função deverá se repetir.
 
 
-Lib para executar funcões repetidamente por um tempo específico.
+# Como usar:
 
-# Usage:
-
-Primeiramente instale a lib usando o pip:
+Primeiramente baixe o whilefreezed.py e importe-o no seu programa da seguinte maneira:
 
 ```
-pip install actionfreeze
+from whilefreezed import *
 ```
 
-Agora você pode importar a lib como o exemplo a seguir:
+Os parâmetros do whilefreezed são (h=0, m=0, s=0, f=None).
 
+h -> hora
+m -> minutos
+s -> segundos
+f -> função (onde deverá ser posta a função sem fazer a chamada da mesma, ou seja, sem o "()" no final. 
+
+
+``````
+from whilefreezed import *
+
+def exemplo():
+    print('Exemplo de uso')
+    
+whilefreezed(s=10, f=exemplo)
+
+
+>>> Exemplo de uso
+>>> Exemplo de uso
+Exemplo de uso
+Exemplo de uso
+Exemplo de uso
+...
 ```
-from actionfreeze import *
-
-ice = timefreeze(5)
-while actualseconds() != ice:
-    print('Hello word!')
-````
-
-A variável ```ice``` está recebendo a função ```timefreeze(seconds)```, que retorna os segundos do horário atual somados aos segundos que você especificar.  
-
-Depois é criado um while que compara ```actualseconds()``` com a variável ```ice```, enquanto eles forem diferentes, excute uma determinada tarefa.
-
-# Funções:
-
-```timefreeze(10)``` retorna os segundos do horário atual somados aos segundos que você especificar
-
-```actualseconds()``` Retorna os segundos do horário atual
-
-Obs: O tempo de congelamento nao pode ultrapassar 60 segundos, ao menos, nao ainda. 
-
