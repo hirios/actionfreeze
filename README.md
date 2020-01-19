@@ -12,7 +12,7 @@ from whiletime import *
 ```
 <br />
 
-Os parâmetros do whiletime são (h=0, m=0, s=0, f=None).
+Os parâmetros do `whiletime` são (h=0, m=0, s=0, f=None).
 
 h -> hora <br />
 m -> minutos <br />
